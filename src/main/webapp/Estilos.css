@@ -1,0 +1,40 @@
+div.cn {
+    display: table-cell;
+    width: 500px;
+    height: 500px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+div.inner {
+    display: inline-block;
+    width: auto;
+    height: auto;
+
+}
+#parent {
+  border: 3px solid green;
+  display: flex;
+}
+#narrow {
+
+  min-height: 160px;
+  border: 3px solid green;
+  width: 300px;
+  background: lightblue;
+
+}
+#wide {
+  border: 3px solid green;
+min-height: 160px;
+  width: 200px;
+flex: 1;
+  background: lightgreen;
+}
+div{
+
+  text-align:center;
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
